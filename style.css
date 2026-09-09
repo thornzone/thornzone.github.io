@@ -34,55 +34,6 @@ p {
     
 }
 
-#windfortress {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: saddlebrown;
-    border-color: wheat;
-    border-radius: 10px;
-    border-style: solid;
-}
-
-#scorchstation {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: darkmagenta;
-    border-width: 3px;
-    border-color: darkslategrey;
-    border-radius: 10px;
-    border-style: solid;
-}
-
-#bloodways {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: darkred;
-    border-style: solid;
-    border-width: 3px;
-    border-color: blue;
-    border-radius: 10px;
-}
-
-#mrsc {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: darkslategrey;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
-}
-
-#matrioshka {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: palegreen;
-    border-style: double;
-    border-width: 2px;
-    border-color: blue;
-    border-radius: 10px;
-}
-
 .dark {
     color: wheat;
     border-bottom: 2px solid white;
@@ -235,4 +186,8 @@ aside {
     from {
         transform: translateY(-100%)
     }
+}
+
+.links a {
+    padding-left: 2em;
 }
