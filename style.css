@@ -1,6 +1,11 @@
 body {
-    background-color: blue;
+    
     color: white;
+    background-image: url(images/thornzonebg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -62,6 +67,7 @@ img {
 .title-page .title-child
 {
     padding: 10px;
+    margin-left: 26px;
 }
 
 .box {
@@ -203,11 +209,13 @@ aside {
 }
 
 .links {
-    background-color: rgb(18, 8, 20);
+    background-color: rgba(188, 141, 197, 0.178);
     padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 26px;
 }
 
 .links li {
-    color:rgb(56, 47, 54);
+    color:rgba(255, 255, 255, 0.233);
     margin-top: 2em;
 }
